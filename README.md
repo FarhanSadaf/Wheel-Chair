@@ -13,4 +13,4 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
 
 **A demo of the application:**
 
-<img src="https://github.com/FarhanSadaf/Wheel-Chair/tree/main/tutorial/1-connect-bluetooth.jpg"> 
+<img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/1-connect-bluetooth.jpg" height=400> 

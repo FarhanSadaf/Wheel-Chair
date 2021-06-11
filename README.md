@@ -113,3 +113,7 @@ For example,
 "7010" = Direction is Backward for speech (7) | Motor will run for 10 seconds.
 "0000" = Stop.
 ```
+
+<br>
+
+*Licensed under [MIT License](LICENSE).*

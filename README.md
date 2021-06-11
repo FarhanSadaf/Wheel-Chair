@@ -17,11 +17,14 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
 
 <table>
   <tr>
-    <th>
-      <i>Connect bluetooth device</i>
+    <th colspan=2>
+      <i>Connect bluetooth module</i>
     </th>
   </tr>
   <tr>
+    <td>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/0-connect-bluetooth.jpg" height=400>
+    </td>
     <td>
       <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/1-connect-bluetooth.jpg" height=400>
     </td>
@@ -73,8 +76,16 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
 - ***Ultrasonic sensor:*** HC-SR04
 - ***DC power source:*** 9V battery / Power bank
 
-##### *Connections*
+##### *Connection diagram*
 <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/Sketch_bb.png" width=50%>
+
+<br>
+
+### *How to run*
+1. Assemble hardware components according to `connection diagram`.
+2. Upload `main/main.ino` to Arduino.
+3. Install `wheel_chair_app.apk` on Android.
+4. Connect to bluetooth module & play.
 
 <br>
 

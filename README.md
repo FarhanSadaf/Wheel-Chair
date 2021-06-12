@@ -3,15 +3,15 @@
 ### *Features*
 - Using a simple android application connected to the car by bluetooth, the car/wheelchair can be controlled in
   1. ***Joystick:*** A virtual joystick in the app.
-  2. ***Gesture:*** Using phone's built-in accelerometer.
-  3. ***Voice command:*** Listens for Forward, Backward, Right, Left for direction control of the car.
+  2. ***Gesture:*** Using phone's built-in accelerometer. Joystick control is achieved by tilting the phone.
+  3. ***Voice command:*** Listens for Forward, Backward, Right, Left for direction control of the car. Voice command can be triggered by shaking the phone.
 - Direction control as well as speed control of the car.
 - Shows distance of the backward objects & sends caution signal on the app for backward collison.
 
 <br>
 
 ### *Mobile Application*
-Mobile application was developed using [MIT App Inventor](https://appinventor.mit.edu/) which can be connected to the car using bluetooth.
+Mobile application was developed using [MIT App Inventor](https://appinventor.mit.edu/) which connects to the car via bluetooth.
 
 ##### *A demo of the application:*
 
@@ -22,11 +22,11 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
     </th>
   </tr>
   <tr>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/0-connect-bluetooth.jpg" height=400>
+    <td width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/0-connect-bluetooth.jpg">
     </td>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/1-connect-bluetooth.jpg" height=400>
+    <td width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/1-connect-bluetooth.jpg">
     </td>
   </tr>
   <tr>
@@ -41,17 +41,17 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
     </th>
   </tr>
   <tr>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/2-joystick-control.jpg" height=400>
+    <td width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/2-joystick-control.jpg">
     </td>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/3-gesture-control.jpg" height=400>
+    <td width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/3-gesture-control.jpg">
     </td>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/4-voice-control.jpg" height=400>
+    <td width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/4-voice-control.jpg">
     </td>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/5-voice-control.jpg" height=400>
+    <td width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/5-voice-control.jpg">
     </td>
   </tr>
   <tr>
@@ -60,8 +60,8 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
     </th>
   </tr>
   <tr>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/6-settings.jpg" height=400>
+    <td  width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/6-settings.jpg">
     </td>
   </tr>
 </table>
@@ -112,8 +112,8 @@ For Voice commands
 
 ```
 Let a 4 byte string "XYYY" is received,
-  X = Direction commands
-  YYY = Speed (0 - 100) / Timer for voice control in seconds
+  X = Direction commands.
+  YYY = Speed (0 - 100) / Timer for voice control in seconds.
 ```
 
 ```

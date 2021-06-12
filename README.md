@@ -3,7 +3,7 @@
 ### *Features*
 - Using a simple android application connected to the car by bluetooth, the car/wheelchair can be controlled in
   1. ***Joystick:*** A virtual joystick in the app.
-  2. ***Gesture:*** Using phone's built-in accelerometer.
+  2. ***Gesture:*** Using phone's built-in accelerometer. Joystick control is achieved by tilting the phone.
   3. ***Voice command:*** Listens for Forward, Backward, Right, Left for direction control of the car. Voice command can be triggered by shaking the phone.
 - Direction control as well as speed control of the car.
 - Shows distance of the backward objects & sends caution signal on the app for backward collison.

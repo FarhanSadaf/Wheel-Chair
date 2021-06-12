@@ -22,11 +22,11 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
     </th>
   </tr>
   <tr>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/0-connect-bluetooth.jpg" height=400>
+    <td width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/0-connect-bluetooth.jpg">
     </td>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/1-connect-bluetooth.jpg" height=400>
+    <td width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/1-connect-bluetooth.jpg">
     </td>
   </tr>
   <tr>
@@ -41,17 +41,17 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
     </th>
   </tr>
   <tr>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/2-joystick-control.jpg" height=400>
+    <td width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/2-joystick-control.jpg">
     </td>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/3-gesture-control.jpg" height=400>
+    <td width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/3-gesture-control.jpg">
     </td>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/4-voice-control.jpg" height=400>
+    <td width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/4-voice-control.jpg">
     </td>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/5-voice-control.jpg" height=400>
+    <td width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/5-voice-control.jpg">
     </td>
   </tr>
   <tr>
@@ -60,8 +60,8 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
     </th>
   </tr>
   <tr>
-    <td>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/6-settings.jpg" height=400>
+    <td  width=25%>
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/6-settings.jpg">
     </td>
   </tr>
 </table>

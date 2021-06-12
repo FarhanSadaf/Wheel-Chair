@@ -77,7 +77,7 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
 - ***DC power source:*** 9V battery / Power bank
 
 ##### *Connection diagram*
-<img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/Sketch_bb.png" width=50%>
+<img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/Sketch_bb.svg" width=50%>
 
 <br>
 

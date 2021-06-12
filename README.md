@@ -11,7 +11,7 @@
 <br>
 
 ### *Mobile Application*
-Mobile application was developed using [MIT App Inventor](https://appinventor.mit.edu/) which can be connected to the car using bluetooth.
+Mobile application was developed using [MIT App Inventor](https://appinventor.mit.edu/) which connects to the car via bluetooth.
 
 ##### *A demo of the application:*
 
@@ -112,8 +112,8 @@ For Voice commands
 
 ```
 Let a 4 byte string "XYYY" is received,
-  X = Direction commands
-  YYY = Speed (0 - 100) / Timer for voice control in seconds
+  X = Direction commands.
+  YYY = Speed (0 - 100) / Timer for voice control in seconds.
 ```
 
 ```

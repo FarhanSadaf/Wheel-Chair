@@ -92,7 +92,7 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
 ### *Basic working principle*
 From the mobile application, commands are being sent as a 4 byte string.
 
-<img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/bluetooth-app-to-car-1.png" width=60%>
+<img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/bluetooth-app-to-car-1.png" width=70%>
 
 The arduino programmed in the car responds to these commands by taking following actions:
 ```

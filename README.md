@@ -1,10 +1,10 @@
 ### *A Low-cost Joystick, Gesture & Voice Controlled Wheel Chair*
 
 ### *Features*
-- Using a simple android application connected to the car by bluetooth, the car/wheelchair can be controlled in
+- Using a simple mobile application connected to the car by bluetooth, the car/wheelchair can be controlled in
   1. ***Joystick:*** A virtual joystick in the app.
   2. ***Gesture:*** Using phone's built-in accelerometer. Joystick control is achieved by tilting the phone.
-  3. ***Voice command:*** Listens for Forward, Backward, Right, Left for direction control of the car. Voice command can be triggered by shaking the phone.
+  3. ***Voice command:*** Listens for Forward, Backward, Right, Left for direction control of the car.<br>Voice command can be triggered by shaking the phone.
 - Direction control as well as speed control of the car.
 - Shows distance of the backward objects & sends caution signal on the app for backward collison.
 
@@ -83,8 +83,8 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
 
 ### *How to run*
 1. Assemble hardware components according to `connection diagram`.
-2. Upload `main/main.ino` to Arduino.
-3. Install `wheel_chair_app.apk` on Android.
+2. Upload code `main/main.ino` to Arduino.
+3. Install `wheel_chair_app.apk` on Android.<br>For iOS, import `wheel_chair_app.aia` in [MIT App Inventor](http://ai2.appinventor.mit.edu/) and read [this post](https://appinventor.mit.edu/blogs/evan/2021/03/04-mit-app-inventor-ios-app-store) for further instructions.
 4. Connect to bluetooth module & play.
 
 <br>

@@ -1,7 +1,7 @@
 ### *A Low-cost Joystick, Gesture & Voice Controlled Wheel Chair*
 
 ### *Features*
-- Using a simple mobile application connected to the car by bluetooth, the car/wheelchair can be controlled in
+- With a simple mobile application connected to the car by bluetooth, the car/wheelchair can be controlled using:
   1. ***Joystick:*** A virtual joystick in the app.
   2. ***Gesture:*** Using phone's built-in accelerometer. Joystick control is achieved by tilting the phone.
   3. ***Voice command:*** Listens for Forward, Backward, Right, Left for direction control of the car.<br>Voice command can be triggered by shaking the phone.

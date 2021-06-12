@@ -82,7 +82,7 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
 <br>
 
 ### *How to run*
-1. Assemble hardware components according to [Connection diagram](#connection-diagram).
+1. Assemble hardware components according to [connection diagram](#connection-diagram).
 2. Upload code `main/main.ino` to Arduino.
 3. Install `wheel_chair_app.apk` on Android.<br>For iOS, import `wheel_chair_app.aia` in [MIT App Inventor](http://ai2.appinventor.mit.edu/) and read [this post](https://appinventor.mit.edu/blogs/evan/2021/03/04-mit-app-inventor-ios-app-store) for further instructions.
 4. Connect to bluetooth module & play.

@@ -1,6 +1,8 @@
+/*     -- Bluetooth --     */
 // Pin 1(RX) & Pin 2(TX) used for Serial -> Bluetooth
+const int btStatePin = 4;   // To check if bluetooth is connected or not
 
-//     -- Sonar --
+/*     -- Sonar --     */
 const int trigPin = 7, echoPin = 6;     // For ultrasound sensor
 int distance = -1;
 bool isDistanceSent = false;
@@ -8,30 +10,47 @@ bool isDistanceSent = false;
 const int loopPeriod = 250;    // a period of 250ms = a frequency of 4Hz || Checks distance in every -> loopPeriod
 unsigned long timeLoopDelay = 0;
 
-//     -- Motor --
+/*     -- Motor --     */
 const int enA = 10, in1 = A3, in2 = A2;      // Motor A connections
 const int enB = 11, in3 = A1, in4 = A0;      // Motor B connections
 int motorDirection = 0, motorSpeed = 0, motorRunFor = 3;
 
 bool isSpeechDelayDone = false;
 
+String uid = "*1234";   // Unique id for car
+bool isSecureConnection = false;
+
 void setup() {
-  //     -- Sonar --
+  /*     -- Bluetooth --     */
+  pinMode(btStatePin, INPUT);
+  
+  /*     -- Sonar --     */
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
 
-  //     -- Motor --
+  /*     -- Motor --     */
   pinMode(enA, OUTPUT);
   pinMode(enB, OUTPUT);
   pinMode(in1, OUTPUT);
   pinMode(in2, OUTPUT);
   pinMode(in3, OUTPUT);
   pinMode(in4, OUTPUT);
-
+  
   Serial.begin(9600);
+
+  while (!isSecureConnection) {
+    if (Serial.available()) {
+      String command = Serial.readStringUntil('#');
+      if (command == uid) isSecureConnection = true;
+    }
+  }
 }
 
 void loop() {
+  if (digitalRead(btStatePin) == LOW) {
+    Stop();
+  }
+  
   isDistanceSent = false;
 
   if (isSpeechDelayDone) {
@@ -41,6 +60,13 @@ void loop() {
   
   if (Serial.available()) {
     String command = Serial.readStringUntil('#');
+    
+    if (command[0] == '*') {    // Check if pin command
+      if (command == uid) isSecureConnection = true;
+      else isSecureConnection = false;
+    }
+    if (!isSecureConnection) goto skip;
+    
     if (command.length() == 4) {
       motorDirection = command.substring(0, 1).toInt();
       Stop();
@@ -96,6 +122,7 @@ void loop() {
   }
   
   if (!isDistanceSent) sendDistance();
+  skip: ;
 }
 
 float getDistance() {

@@ -1,4 +1,4 @@
-### *A Low-cost Joystick, Gesture & Voice Controlled Wheel Chair*
+### *A Low-cost Joystick, Gesture & Voice Controlled Smart Wheelchair*
 
 ### *Features*
 - With a simple mobile application connected to the car by bluetooth, the car/wheelchair can be controlled using:
@@ -7,6 +7,8 @@
   3. ***Voice command:*** Listens for Forward, Backward, Right, Left for direction control of the car.<br>Voice command can be triggered by shaking the phone.
 - Direction control as well as speed control of the car.
 - Shows distance of the backward objects & sends caution signal on the app for backward collison.
+
+<img src="./tutorial/controller-diagram.png" width=50%>
 
 <br>
 
@@ -23,7 +25,7 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
   </tr>
   <tr>
     <td width=25%>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/0-applocker.jpg">
+      <img src="./tutorial/0-applocker.jpg">
     </td>
   </tr>
   <tr>
@@ -33,7 +35,7 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
   </tr>
   <tr>
     <td width=25%>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/1-connect-bluetooth.jpg">
+      <img src="./tutorial/1-connect-bluetooth.jpg">
     </td>
   </tr>
   <tr>
@@ -49,16 +51,16 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
   </tr>
   <tr>
     <td width=25%>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/2-joystick-control.jpg">
+      <img src="./tutorial/2-joystick-control.jpg">
     </td>
     <td width=25%>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/3-gesture-control.jpg">
+      <img src="./tutorial/3-gesture-control.jpg">
     </td>
     <td width=25%>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/4-voice-control.jpg">
+      <img src="./tutorial/4-voice-control.jpg">
     </td>
     <td width=25%>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/5-voice-control.jpg">
+      <img src="./tutorial/5-voice-control.jpg">
     </td>
   </tr>
   <tr>
@@ -68,7 +70,7 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
   </tr>
   <tr>
     <td  width=25%>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/6-settings.jpg">
+      <img src="./tutorial/6-settings.jpg">
     </td>
   </tr>
 </table>
@@ -84,7 +86,7 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
 - ***DC power source:*** 9V battery / Power bank
 
 ##### *Connection diagram*
-<img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/circuit-diagram.png" width=50%>
+<img src="./tutorial/circuit-diagram.png" width=50%>
 
 <br>
 
@@ -99,7 +101,7 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
 ### *Basic working principle*
 From the mobile application, commands are being sent as a 4 byte string.
 
-<img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/bluetooth-app-to-car.svg" width=50%>
+<img src="./tutorial/bluetooth-app-to-car.svg" width=50%>
 
 The arduino programmed in the car responds to these commands by taking following actions:
 ```
@@ -133,5 +135,10 @@ For example,
 ```
 
 <br>
+
+### *Results*
+First prototype `Schofield`.
+
+<img src="./tutorial/schofield-1.png" width=60%>
 
 *Licensed under [MIT License](LICENSE).*

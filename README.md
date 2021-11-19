@@ -17,14 +17,21 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
 
 <table>
   <tr>
-    <th colspan=2>
-      <i>Connect bluetooth module</i>
+    <th>
+      <i>Applocker</i>
     </th>
   </tr>
   <tr>
     <td width=25%>
-      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/0-connect-bluetooth.jpg">
+      <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/0-applocker.jpg">
     </td>
+  </tr>
+  <tr>
+    <th>
+      <i>Connect bluetooth module</i>
+    </th>
+  </tr>
+  <tr>
     <td width=25%>
       <img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/1-connect-bluetooth.jpg">
     </td>
@@ -77,7 +84,7 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
 - ***DC power source:*** 9V battery / Power bank
 
 ##### *Connection diagram*
-<img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/Sketch_bb.svg" width=50%>
+<img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/circuit-diagram.png" width=50%>
 
 <br>
 
@@ -92,7 +99,7 @@ Mobile application was developed using [MIT App Inventor](https://appinventor.mi
 ### *Basic working principle*
 From the mobile application, commands are being sent as a 4 byte string.
 
-<img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/bluetooth-app-to-car-1.svg" width=50%>
+<img src="https://github.com/FarhanSadaf/Wheel-Chair/blob/main/tutorial/bluetooth-app-to-car.svg" width=50%>
 
 The arduino programmed in the car responds to these commands by taking following actions:
 ```
